@@ -49,7 +49,7 @@ int main() {
 
     fo(k,0,n-1){
         fo(i,0,n-1){
-            fo(j,0,n){
+            fo(j,0,n-1){
                 mmin(dist[i][j],dist[i][k]+dist[k][j]);
             }
         }
